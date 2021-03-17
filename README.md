@@ -11,7 +11,7 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 - Open-cv 4.5.1
 - Pandas 1.1.5
 - Nltk 3.5
-- Download Flickr30k OR MSCOCO dataset images and captions.
+- Download Flickr30k dataset images and captions.
 
 ## Procedure to Train Model:
 1. Clone the Repository to preserve directory structure.
