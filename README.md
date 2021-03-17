@@ -15,7 +15,7 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 
 ## Procedure to Train Model:
 1. Clone the Repository to preserve directory structure.
-2. For Flickr30k put **results_20130124.token** and Flickr30k images in flickr30k-images folder OR For MSCOCO put **captions_val2014.json** and MSCOCO images in COCO-images folder. 
+2. For Flickr30k put **results_20130124.token** and Flickr30k images in flickr30k-images folder.
 3. Create pre-trained InceptionV3 TensorFlow graph by running: `python keras2tensorflow.py`
 4. Generate features(features.npy) corresponding to the images in the dataset folder by running:
 `python convfeatures.py --data_path Dataset/flickr30k-images --inception_path ConvNets/InceptionV3_keras.pb`
