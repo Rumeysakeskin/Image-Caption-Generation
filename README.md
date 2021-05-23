@@ -37,4 +37,4 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 `python convert_optimize.py`
 
 ## Evaluate:
-`python utils/merge_graphs.py --encpb ./model/Trained_Graphs/encoder_frozen_model.pb --decpb ./model/Trained_Graphs/decoder_frozen_model.pb`
+`python main.py --mode eval --image_path Dataset/val2017 --inception_path ConvNets/InceptionV3_keras.pb`
