@@ -36,4 +36,5 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 ## Procedure to Optimization (Post-Training Quantization) Model:
 `python convert_optimize.py`
 
-
+## Evaluate:
+`python utils/merge_graphs.py --encpb ./model/Trained_Graphs/encoder_frozen_model.pb --decpb ./model/Trained_Graphs/decoder_frozen_model.pb`
