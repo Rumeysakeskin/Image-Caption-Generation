@@ -18,7 +18,7 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 2. For Flickr30k put **results_20130124.token** and Flickr30k images in flickr30k-images folder.
 3. Create pre-trained InceptionV3 TensorFlow graph by running: `python keras2tensorflow.py`
 4. Generate features(features.npy) corresponding to the images in the dataset folder by running:
-`python convfeatures.py --data_path Dataset/flickr30k-images --inception_path ConvNets/InceptionV3_keras.pb`
+`python convfeatures.py --data_path Dataset/MSCOCO-images --inception_path ConvNets/InceptionV3_keras.pb`
 5. Train the model by running: `python main.py --mode train --caption_path ./Dataset/results_20130124.token --feature_path ./Dataset/features.npy --resume`
 
 ## Procedure to Embedded Model:
