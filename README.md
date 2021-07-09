@@ -39,6 +39,8 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 ## Evaluate:
 `python main.py --mode eval --image_path Dataset/val2017 --inception_path ConvNets/InceptionV3_keras.pb`
 
-
-<img src="IMAGES/1.1.png" width="300" height="250">
+## Results:
+-Python code-generated captions:
+<img src="IMAGES/1.1.png" width="270" height="210">
+-Embedded model-generated captions on the application:
 <img src="IMAGES/1.2.png" width="300" height="620">
