@@ -47,9 +47,9 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 -  Performance metrics results of proposed Inception v3 + 3-layer GRU language model-based image captioning 
 system on MS COCO dataset:
 
-CIDEr  | Second Header
------- | -------------
-0.04619| Content Cell
+CIDEr  | Bleu-4 | Bleu-3 | Bleu-2 | Bleu-1 | ROUGE-L | METEOR | SPICE |
+------ | -------| -------| -------| -------| --------| -------| ------|
+0.0462| 0.03738 | 0.0769 | 0.1818 | 0.3884 | 0.2971 | 0.0961 | 0.0228 |
 
 - Python code-generated captions:
 <img src="IMAGES/1.1.png" width="300" height="240">
