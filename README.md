@@ -38,3 +38,7 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 
 ## Evaluate:
 `python main.py --mode eval --image_path Dataset/val2017 --inception_path ConvNets/InceptionV3_keras.pb`
+
+
+<img src="IMAGES/1.1.png" width="300" height="620">
+
