@@ -40,6 +40,17 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 `python main.py --mode eval --image_path Dataset/val2017 --inception_path ConvNets/InceptionV3_keras.pb`
 
 ## Results:
+
+- 32-bit floating-point trained model size: 207,167 KB
+-  8-bit integers quantized model size: 52,711 KB
+
+-  Performance metrics results of proposed Inception v3 + 3-layer GRU language model-based image captioning 
+system on MS COCO dataset:
+
+CIDEr  | Second Header
+------ | -------------
+0.04619| Content Cell
+
 - Python code-generated captions:
 <img src="IMAGES/1.1.png" width="300" height="240">
 <img src="IMAGES/2.1.png" width="300" height="240">
