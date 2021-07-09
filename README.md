@@ -42,6 +42,8 @@ InceptionV3-Multi-layer GRU (Keras and TensorFlow)
 ## Results:
 - Python code-generated captions:
 <img src="IMAGES/1.1.png" width="300" height="240">
+<img src="IMAGES/2.1.png" width="300" height="240">
 
 - Embedded model-generated captions on the application:
 <img src="IMAGES/1.2.png" width="300" height="620">
+<img src="IMAGES/2.2.png" width="300" height="620">
